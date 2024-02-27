@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="mx-auto mt-5" style="max-width: 700px;">
+                <div class="input-group mb-3">
+
+                    <!-- lable -->
+                    <input type="text" class="form-control" placeholder="Enter the Todo"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" id="todoName">
+                        
+                        <!-- button -->
+                    <button class="btn btn-info text-white" type="button" id="addTodo">ADD</button>
+                </div>
+
+
+                <div class="display">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">NO.</th>
+                                <th scope="col">TODO</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="record">
+                            <!-- <tr>
+                                <th scope="row">1</th>
+                                <td>King of javascript</td>
+                                <td><i class="btn text-white mx-2 btn-danger fa fa-edit"></i> <i class="btn text-white btn-info fa-trash-o"></i> </i></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
